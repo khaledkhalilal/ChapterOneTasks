@@ -21,9 +21,11 @@ public class PhaseOmatic {
         int rand1= (int) (Math.random() * OneLength);
         int rand2 =(int)(Math.random() * tweLength);
         int rand3 =(int)(Math.random() * threeLength);
+        int x= (int) (Math.random()*3)+1;
 
         String phase = wordListOne[rand1] +" "+wordListTwe[rand2]+" " +wordListThree[rand3];
 
         System.out.println("все, что я нам нужно,"+ phase);
+        System.out.println(x);
     }
 }

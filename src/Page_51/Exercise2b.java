@@ -1,0 +1,13 @@
+package Page_51;
+
+public class Exercise2b {
+    public static void main(String [] args) {
+        int x = 5;
+        while (x > 1) {
+        x--;
+        if(x < 3){
+            System.out.println(x+"большой икс");
+        }
+        }
+    }
+}
